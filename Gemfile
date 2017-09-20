@@ -3,6 +3,15 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+# Gem para o I18n
+gem 'rails-i18n'
+
+# Gem foreman para o Procfile
+gem 'foreman'
+# Gem devise para autenticar usuários e administradores
+gem 'devise'
+# Translations for the devise gem
+gem 'devise-i18n'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -35,6 +44,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # Better error page for Rack apps
+  gem 'better_errors'
+  # Gerar diagramas Entidade relacionamento da aplicação rails
+  gem 'rails-erd'
+
 end
 
 group :development do
