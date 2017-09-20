@@ -5,7 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Gem para o I18n
 gem 'rails-i18n'
-
+# Gem para o bootstrap sb admin 2
+gem 'bootstrap_sb_admin_base_v2'
 # Gem foreman para o Procfile
 gem 'foreman'
 # Gem devise para autenticar usuários e administradores
