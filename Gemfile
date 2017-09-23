@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+# Rails-ASSETS para o Bootstrap
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
 # Gem para o I18n
 gem 'rails-i18n'
 # Gem para o bootstrap sb admin 2
